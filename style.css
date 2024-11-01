@@ -1,0 +1,656 @@
+#homepage{
+    background: linear-gradient(to bottom , rgba(2, 96, 150, 0.815) 60%,lightskyblue 40%);
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid white;
+}
+
+#mainul{
+    display: flex;
+    gap: 2vw;
+    display: flex;
+    flex-direction: row;
+}
+
+#menubtn{
+    color: white;
+    display: none;
+}
+
+#Xbtn{
+    display: none;
+    color: white;
+}
+
+#usericon{
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+    background-color: transparent;
+    margin-right: 3vw;
+}
+
+#usericon:hover{
+    color: skyblue;
+}
+
+#mainul a{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+}
+
+#mainul a:hover{
+    color: skyblue;
+}
+
+/* Top Section */
+#headings-search{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5vh;
+}
+
+#mainheading{
+    color: white;
+    font-size: 5vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+}
+
+#subheading{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    color: rgb(0, 92, 92);
+    margin-top: -2vw;
+}
+
+#searchicon{
+    color: gray;
+    font-size: larger;
+    margin-left: 2vw;
+}
+
+#input{
+    display: flex;
+    width: 60%;
+    background-color: white;
+    border-radius: 100px;
+    height: 12vh;
+    align-items: center;
+}
+
+#input input{
+    width: 65%;
+    margin-left: 1vw;
+    border: white;
+    height: 6vh;
+    font-size: large;
+    outline: none;
+}
+
+#searchbtn{
+    border-radius: 30px;
+    width: 20%;
+    color: white;
+    background-color: lightskyblue;
+    border: white;
+    margin-left: 1vw;
+    height: 10vh;
+    font-size: larger;
+    font-weight: bold;
+}
+
+#searchbtn:hover{
+    background-color: darkcyan;
+}
+
+/* Trading and Finance Section */
+
+#trading-finance{
+    display: flex;
+    justify-content: center;
+    gap: 4vw;
+    margin-top: 5vw;
+    padding-bottom: 18vh;
+}
+
+/* Trading */
+#trading{
+    width: 25%;
+    background-color: white;
+    border-radius: 10px;
+    font-family: sans-serif;
+}
+
+#trading:hover{
+    transform: scale(1.1);
+}
+
+#tradingheader{
+    margin-left: 1vw;
+    padding-top: 1vw;
+    font-size: xx-large;
+}
+
+#tradingtext{
+    margin-left: 1vw;
+    text-align: justify;
+    padding-right: 1vw;
+    margin-top: -2vw;
+    color: gray;
+    font-size: larger;
+}
+
+#tradingimg{
+    width: 100%;
+}
+/* Finance */
+#finance{
+    width: 40%;
+    background-color: white;
+    border-radius: 10px;
+    font-family: sans-serif;
+    background: linear-gradient(rgb(0, 128, 128,0.7),rgb(0, 128, 128,0.7) ), url(/images/finance.webp);
+}
+
+#finance:hover{
+    transform: scale(1.1);
+}
+
+#financeheader{
+    margin-left: 2vw;
+    padding-top: 1vw;
+    font-size: xx-large;
+    color: white;
+}
+
+#financetext{
+    margin-left: 2vw;
+    text-align: justify;
+    padding-right: 3vw;
+    margin-top: -2vw;
+    color: white;
+    font-size: larger;
+}
+
+#financebtn{
+    width: 30%;
+    height: 15%;
+    border-radius: 100px;
+    border: transparent;
+    background-color: teal;
+    color: white;
+    margin-left: 2vw;
+    font-size: large;
+}
+
+#financebtn:hover{
+    background-color: rgb(10, 163, 163);
+}
+
+#topicheader{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xxx-large;
+}
+
+#subnav{
+    border-bottom: 2px solid gray;
+}
+
+#subul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3vw;
+    font-size: x-large;
+}
+
+#subul a{
+    text-decoration: none;
+    color: gray;
+}
+
+#subul a:hover{
+    border-bottom: 2px solid gray;
+    color: darkcyan;
+}
+
+#maindesign{
+    display: flex;
+    justify-content: center;
+    gap: 5vw;
+    margin-top: 3vw;
+}
+
+#design{
+    border-radius: 30px;
+    height: auto;
+    width: 25%;
+    box-shadow: gray 1vw 1vw 1vw 1vw;
+}
+
+#design h2{
+    padding-left: 2vw;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    color: rgb(9, 192, 192);
+}
+
+#design p{
+    padding-left: 2vw;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    color: gray;
+}
+
+#designimg{
+    width: 80%;
+    height: 50%;
+}
+
+#design:hover{
+    transform: scale(1.1);
+    transition: ease-out;
+}
+
+#work{
+    background: linear-gradient(rgba(7, 196, 196, 0.8),rgb(7, 196, 196,0.8)),url(images/images/group.jpg);
+    margin-top: 10vw;
+}
+
+#work h2{
+    text-align: center;
+    color: white;
+    font: bolder xxx-large sans-serif;
+    padding-top: 7vw;
+}
+
+#workcontent{
+    display: flex;
+    gap: 5vw;
+    width: 80%;
+    margin-left: 15%;
+    margin-bottom: 2vw;
+}
+
+#worktext{
+    font: 200 x-large sans-serif;
+    color: white;
+    margin-top: -1vw;
+}
+
+
+#workicon{
+    color: white;
+    font-size: xxx-large;
+}
+
+
+#workcontent h3{
+    color: white;
+    font: bold xx-large sans-serif;
+}
+
+#mainfaq img{
+    width: 30%;
+}
+
+#mainfaq {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#faqtext div{
+    display: flex;
+    align-items: center;
+    gap: 20vw;
+}
+
+#faqtext div h3{
+    font: bolder x-large sans-serif;
+}
+
+#faqtext div{
+    cursor: pointer;
+}
+
+#faqtext p{
+    display: none;
+    color: gray;
+    font: 700 large sans-serif;
+}
+
+#faqtext{
+    width: 40%;
+}
+#up1{
+    display: none;
+}
+#up2{
+    display: none;
+}
+#up3{
+    display: none;
+}
+
+/* Contact Section */
+#contact{
+    background-color: rgb(232, 247, 247);
+}
+#contact h2{
+    font: bolder xxx-large sans-serif;
+    text-align: center;
+    padding-top: 5vw;
+}
+
+#maincontact img{
+    width: 35%;
+    border-radius: 10px;
+}
+
+#maincontact div{
+    width: 20%;
+}
+
+#maincontact div h3{
+    font: bolder xx-large sans-serif ;
+}
+
+#maincontact div p{
+    font: 500 large sans-serif ;
+    border-bottom: 1px solid gray;
+}
+
+#maincontact div h6{
+    color: gray;
+    font:500 large sans-serif;
+}
+
+span{
+    color: darkcyan;
+}
+
+#maincontact{
+    display: flex;
+    justify-content: space-around;
+    gap: 2vw;
+    align-items: center;
+    padding-bottom: 3vw;
+}
+
+#footer{
+    display: flex;
+    justify-content: space-around;
+    gap: 5vw;
+    align-items: center;
+    box-shadow: 1vw 1vw 1vw 1vw gray;
+    margin-top: 5vw;
+}
+
+#footercontent{
+    width: 20%;
+    color: skyblue;
+    font: bold large sans-serif;
+    padding-top: 3vw;
+    padding-bottom: 5vw;
+}
+
+#footercontent h3{
+    color: darkcyan;
+    font: bold xx-large sans-serif;
+}
+
+#footercontent a{
+    margin-top: 1vw;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    font: large sans-serif;
+    color: skyblue;
+}
+
+#footercontent a:hover{
+    color: darkcyan;
+}
+
+#footercontent button{
+    background-color: skyblue;
+    color: white;
+    font: bold larger sans-serif;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    height: 8vh;
+}
+
+#footercontent button:hover{
+    background-color: darkcyan;
+}
+
+#footercontent div{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 40%;
+    margin-top: 1vw;
+    background-color: #f8f1f1;
+    display: none;
+}
+
+#footercontent div p{
+    margin-top: 1px;
+    font: 500 small sans-serif;
+    color: gray;
+    padding-left: 1vw;
+}
+
+h4{
+    color: gray;
+    text-align: center;
+    font: bolder large sans-serif;
+}
+@media (max-width:700px) {
+    
+    /* NavBar */
+    header{
+        background-color: darkcyan;
+    }
+    
+    #mainnav{
+        display: none;
+        width: 30%;
+        height: 30%;
+        background-color: transparent;
+    }
+
+    #mainul{
+        flex-direction: column;
+    }
+
+    #menubtn{
+        display: block;
+        background-color: transparent;
+    }
+
+    #Xbtn{
+        display: block;
+        background-color: transparent;
+    }
+
+    /* Trading and Finance */
+    #trading-finance{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 5vh;
+    }
+
+    #trading{
+        width: 80%;
+    }
+
+    #finance{
+        width: 80%;
+    }
+
+    #financebtn{
+        height: 5vh;
+        margin-bottom: 4vh;
+    }
+
+    /* Main header and Input */
+    #mainheading{
+        padding-left: 2.5vh;
+        padding-right: 2.5vh;
+        font-size: xxx-large;
+    }
+
+    #subheading{
+        padding-left: 2.5vh;
+        padding-right: 2.5vh;
+        font-size: x-large;
+    }
+
+    #input{
+        width: 90%;
+        border-radius: 100px;
+        height: 7vh;
+    }
+
+    #searchbtn{
+        height: 5vh;
+        width: 57%;
+    }
+
+    #input input{
+        width: 38%;
+        margin-left: 3vw;
+    }
+
+    /* Design Section*/
+    #maindesign{
+        display: grid;
+        grid-template-rows: repeat();
+    }
+
+    #design{
+        width: 97%;
+    }
+
+    /* Footer */
+    #footer{
+        display: grid;
+        grid-column: auto;
+        justify-content: center;
+    }
+
+    #footercontent{
+        font-size: x-large;
+        width: 80%;
+        align-items: center;
+    }
+
+    #footercontent a{
+        font-size: x-large;
+        padding-bottom: 2vw;
+    }
+   
+    #footercontent button{
+        width: 70%;
+        height: 10%;
+    }
+
+    #footercontent div{
+        font-size: large;
+        width: 70%;
+    }
+}
+
+@media (max-width:900px) {
+    #maindesign{
+        display: grid;
+        grid-template-columns: repeat();
+        justify-items: center;
+    }
+    #design{
+        width: 80%;
+    }
+
+     /* FAQ SECTION */
+     #mainfaq{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #mainfaq img{
+        width: 80%;
+    }
+
+    #faqtext{
+        width: 80%;
+    }
+
+    /* Contact Section */
+    #maincontact{
+      display: flex;
+      flex-direction:column;
+    }
+
+    #maincontact img{
+        width: 80%;
+    }
+
+    #maincontact div{
+        width: 60%;
+    }
+
+     /* Main header and Input */
+     #mainheading{
+        padding-left: 2.5vh;
+        padding-right: 2.5vh;
+        font-size: xxx-large;
+    }
+
+    #subheading{
+        padding-left: 2.5vh;
+        padding-right: 2.5vh;
+        font-size: x-large;
+    }
+
+    #input{
+        width: 90%;
+        border-radius: 100px;
+        height: 7vh;
+    }
+
+    #searchbtn{
+        height: 5vh;
+        width: 30%;
+        margin-left: 10vw;
+    }
+
+    #input input{
+        width: 55%;
+        margin-left: 3vw;
+    }
+   
+}
+
+body{
+    scroll-behavior: smooth;
+    max-width: 2500px;
+}
+
